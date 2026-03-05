@@ -1,0 +1,38 @@
+{
+  "web": {
+    "description": "Optimized for web streaming and social media",
+    "video": {
+      "codec": "libx264",
+      "crf": 28,
+      "preset": "fast",
+      "audio_codec": "aac",
+      "audio_bitrate": "128k"
+    },
+    "formats": ["mp4", "webm"],
+    "recommended_resolutions": [720, 1080]
+  },
+  "archive": {
+    "description": "High quality for long-term storage",
+    "video": {
+      "codec": "libx264",
+      "crf": 18,
+      "preset": "slow",
+      "audio_codec": "aac",
+      "audio_bitrate": "192k"
+    },
+    "formats": ["mp4", "mov"],
+    "recommended_resolutions": [1080, 1440, 2160]
+  },
+  "default": {
+    "description": "Balanced quality and file size",
+    "video": {
+      "codec": "libx264",
+      "crf": 23,
+      "preset": "medium",
+      "audio_codec": "aac",
+      "audio_bitrate": "128k"
+    },
+    "formats": ["mp4"],
+    "recommended_resolutions": [720, 1080]
+  }
+}

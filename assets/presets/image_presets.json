@@ -1,0 +1,32 @@
+{
+  "web": {
+    "description": "Optimized for web loading",
+    "quality": 85,
+    "strip": true,
+    "interlace": false,
+    "formats": ["jpeg", "webp"],
+    "recommended_sizes": [800, 1200, 1920]
+  },
+  "print": {
+    "description": "High quality for printing",
+    "quality": 95,
+    "strip": false,
+    "density": 300,
+    "formats": ["png", "tiff"],
+    "recommended_dpi": 300
+  },
+  "thumbnail": {
+    "description": "Small preview images",
+    "quality": 75,
+    "strip": true,
+    "formats": ["jpeg", "webp"],
+    "recommended_sizes": [200, 400]
+  },
+  "default": {
+    "description": "Balanced quality and file size",
+    "quality": 85,
+    "strip": true,
+    "formats": ["jpeg", "png"],
+    "recommended_sizes": [800, 1920]
+  }
+}
