@@ -1,6 +1,27 @@
 ---
 name: multimedia-tools
-description: Video/audio/image processing using FFmpeg & ImageMagick: format conversion (MP4, WebM, MOV, AVI, MKV, JPEG, PNG, WebP, GIF, TIFF, BMP), compression, resizing, watermarking, audio extraction, trimming, batch processing, quality presets (Web, Archive, Print), thumbnail generation, cross-platform (Windows/macOS/Linux)
+description: 多媒体音视频图像处理工具(FFmpeg/ImageMagick)。当用户需要进行视频格式转换(MP4/WebM/MOV/AVI/MKV等)、视频压缩优化(CRF编码/web预设/archive预设)、视频剪辑裁剪(trim/cut/切片)、提取音频(MP3/WAV/FLAC等)、视频缩放调整分辨率(resize/scale)、视频添加水印(watermark/logo/文字叠加)、图片格式转换(JPEG/PNG/WebP/GIF/TIFF/BMP)、图片压缩优化(质量压缩/文件瘦身)、图片缩放裁剪(resize/crop/thumbnail)、批量处理多媒体文件(batch processing)、生成视频缩略图(thumbnail/screenshot)、处理GIF动画(转换/压缩/优化)、视频截图提取帧(frame extraction)、调整视频码率/帧率(bitrate/fps)、旋转视频/图片(rotate/flip)、音频格式转换等相关任务时立即使用。支持跨平台(Windows/macOS/Linux)，输出JSON格式便于程序集成。
+trigger:
+  - 视频转换
+  - 视频压缩
+  - 图片压缩
+  - 格式转换
+  - 视频剪辑
+  - 提取音频
+  - 视频水印
+  - 图片水印
+  - 批量处理
+  - 生成缩略图
+  - FFmpeg
+  - ImageMagick
+  - 视频裁剪
+  - 图片裁剪
+  - 视频转码
+  - GIF处理
+  - 视频截图
+  - 音频提取
+  - 分辨率调整
+  - 文件瘦身
 ---
 
 # Multimedia Tools Guide
